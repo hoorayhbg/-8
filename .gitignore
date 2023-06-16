@@ -1,0 +1,8 @@
+names = "---1, 2, 3, 4, 5, 6,"
+
+name = input("Введите свое имя: ")
+
+if name in names:
+print("привет")
+else:
+print("ты кто?")
